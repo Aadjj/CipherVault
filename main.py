@@ -281,12 +281,7 @@ def main():
         Encrypt or decrypt your text easily using this intuitive interface.
     """)
 
-    st.sidebar.title("Feedback")
-    st.sidebar.write("We value your feedback! Please provide your comments and suggestions below:")
-    feedback = st.sidebar.text_area("Feedback", height=150)
-    if st.sidebar.button("Submit Feedback"):
-        send_feedback(feedback)
-        st.sidebar.success("Thank you for your feedback!")
+
 
     # Main application interface
     text_input = st.text_area("Enter Text (up to 3000 characters):", height=150)
