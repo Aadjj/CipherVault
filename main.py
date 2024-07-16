@@ -260,7 +260,6 @@ st.markdown("""
 
 
 def main():
-    st.set_page_config(page_title="CipherVault", page_icon=":shield:", layout="wide")
     st.title("CipherVault")
     st.markdown(
         "Secure your text using various encryption methods. Choose a cipher method, enter your text, and provide a "
